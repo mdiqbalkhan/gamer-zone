@@ -33,6 +33,36 @@
     
     }
 
+    /* banner section area  */
+    .banner-container{
+        flex-direction: column-reverse;
+       
+      
+        
+    }
+
+    .banner-photo ,img{
+        width: 95%;
+        margin-left: 0px;
+        text-align: center;
+        
+      
+    
+    }
+
+    
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-text p{
+       
+      text-align: center;
+
+    
+    
+    }
     
 }
 
