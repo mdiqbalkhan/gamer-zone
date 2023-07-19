@@ -43,9 +43,9 @@
     }
 
     .banner-photo ,img{
-        width: 95%;
+        width: 100%;
         margin-left: 0px;
-        text-align: center;
+     
         
       
     
@@ -54,6 +54,7 @@
     
     .banner-text{
         width: 100%;
+        padding: 20px;
         text-align: center;
     }
 
@@ -66,15 +67,67 @@
     }
 
     /* banner section end  */
+    /* online section start  */
+    .online-img{
+        grid-template-columns: repeat(1 , 1fr);
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+        gap: 70px;
+        margin-left: 0px;
+        
+      
+    }
+
+    .online-text h3{
+       
+        font-size: 1.8rem;
+        text-align: center;
+        
+        
+    
+    
+    }
+    .funny{
+        font-size: 1.8rem;
+    }
+    .online-text p{
+ 
+        font-size: .8rem;
+        
+       
+    }
+
+   .line{
+    display: none;
+   }
+
+   .play-btn{
+    display: none;
+   }
+
+
+
+    /* online section end  */
 
 
     /* banner online section start */
+    .banner-text{
+        width: 100%;
+    }
+    
+    .banner-photo{
+        width: 100%;
+    
+    }
 
     .banner-online-photo{
-        width: 72%;
+         width: 70%;
+        padding: 20px;
     }
     .banner-online-text{
-        width: 72%;
+        width: 52%;
+        padding: 20px;
     }
 
     .banner-online{
@@ -101,6 +154,7 @@
         text-align: center;
         font-size: 1rem;
         margin-bottom: 30px;
+       
         
         
     
@@ -109,21 +163,133 @@
     .banner-online-photo img{
         margin-left:0px;
         width: 100%;
+        padding: 50px;
         
     }
 
     .rectangle-photo{
         position: absolute;
-        left: 40%;
+        left: 30%;
         text-align: center;
-        transform: translateX(40%);
+        transform: translateX(30%);
        
        
+    }
+    .rectangle{
+       width: 100%;
+       margin-top: -70%;
+        
+        margin-left: 0px;
+        
+    }
+
+    .banner-online-photo{
+        width: 100%;
+    }
+    /* .banner-online-photo img{
+        margin-left:0px;
+        
+    } */
+   
+    
+    .banner-online-text{
+        width: 100%;
+       
+      
     }
     /* banner online section end  */
 
 
     /* featured area start  */
+    .featured-container{
+        margin-top: 120px;
+        width: 100%;
+     }
+    
+    .featured{
+        margin-top: 120px ;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 0px;
+    
+       
+    
+      
+    }
+
+    .rectangle-img{
+        width: 30px;
+        height: 30px;
+       
+    }
+
+    .action{
+     
+        font-size: 10px;
+    }
+
+    .action{
+        left: 12%;
+      
+    
+    }
+
+    .action{
+        margin-top:18px;
+     
+       
+    }
+    .adven{
+     
+        font-size: 10px;
+    }
+
+    .adven{
+        margin-top:18px;
+       
+    }
+    .arcad{
+     
+        font-size: 10px;
+    }
+
+    .arcad{
+        margin-top:18px;
+       
+    }
+    .action{
+     
+        font-size: 10px;
+    }
+
+    .action{
+        margin-top:18px;
+       
+    }
+    .action{
+     
+        font-size: 10px;
+    }
+
+    .action{
+        margin-top:18px;
+       
+    }
+    .action{
+     
+        font-size: 10px;
+    }
+
+    .action{
+        margin-top:18px;
+       
+    }
+
+    .role , .music , .puzzle , .strategy{
+       
+        margin-left: 0px;
+    }
+
+    
     
 }
 
@@ -209,7 +375,7 @@
         
         margin-left: 0px;
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2rem;
         
     
     }
