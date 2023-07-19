@@ -299,47 +299,6 @@
 
 
  /* footer Section  */
- .cont-logo{
-    width: 50px;
-    height: 25px;
-   
-
-}
-
-.logo p{
-    font-size: 30px;
-    font-weight: 500;
-   
-
-    }
-
-    .item{
-       
-        font-size: 12px;
-        font-weight: 300;
-    
-    
-    }
-
-    .image-container{
-        width: 40px;
-        margin-left: 30%;
-        
-    }
-
-    .item-1{
-        
-        font-size: 12px;
-        font-weight: 300;
-       
-       }
-
-       .footer-play{
-        font-size: 12px;
-        font-weight: 300;
-        margin-top: 20px;
-    
-    }
 
 
 
@@ -451,6 +410,35 @@
         transform: translateX(40%);
        
        
+    }
+
+    /* online section start  */
+    .online-img{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 50px;
+        
+      
+    }
+    .play-btn, .line{
+        display: none;
+    }
+
+
+    /* featured container  */
+    .featured{
+        /* margin-top: 120px; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 0px;
+       
+    
+      
+    }
+
+    .music, .role, .puzzle, .strategy{
+       
+        margin-left: 0px;
     }
     
 }
