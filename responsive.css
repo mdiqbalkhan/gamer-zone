@@ -9,6 +9,7 @@
     .nav-item-container{
         flex-direction: column;
         width: 100%;
+        text-align: center;
       
     }
 
@@ -63,6 +64,66 @@
     
     
     }
+
+    /* banner section end  */
+
+
+    /* banner online section start */
+
+    .banner-online-photo{
+        width: 72%;
+    }
+    .banner-online-text{
+        width: 72%;
+    }
+
+    .banner-online{
+        flex-direction: column-reverse;
+    }
+
+    .anywhere{
+        font-size: 2rem;
+        }
+    
+
+
+    .banner-online-text h3{
+        
+        margin-left: 0px;
+        text-align: center;
+        font-size: 2rem;
+        
+    
+    }
+    .banner-online-text p{
+        
+        margin-left: 0px;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 30px;
+        
+        
+    
+    }
+
+    .banner-online-photo img{
+        margin-left:0px;
+        width: 100%;
+        
+    }
+
+    .rectangle-photo{
+        position: absolute;
+        left: 40%;
+        text-align: center;
+        transform: translateX(40%);
+       
+       
+    }
+    /* banner online section end  */
+
+
+    /* featured area start  */
     
 }
 
@@ -73,16 +134,109 @@
 /* tablet view  */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    /* nav section start  */
 
     .nav-container{
   
         flex-direction: column;
+        text-align: center;
         }
     
-        /* .nav-item-container{
+        .nav-item-container{
             flex-direction: column;
             width: 100%;
+            text-align: center;
+            margin-top: 10px;
           
-        } */
+        }
+     
+
+        .nav-item-container a{
+    
+            margin-top: 20px;
+        
+        }
+
+        /* nav section end  */
+
+           /* banner section area  */
+  
+
+    .banner-photo ,img{
+        width: 80%;
+        margin-left: 0px;
+        text-align: center;
+        
+        
+      
+    
+    }
+
+    
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-text p{
+       
+      text-align: center;
+
+    
+    
+    }
+
+    /* banner section end  */
+
+    .banner-online-photo{
+        width: 72%;
+    }
+    .banner-online-text{
+        width: 72%;
+    }
+
+    .banner-online{
+        flex-direction: column-reverse;
+    }
+
+    .anywhere{
+        font-size: 2.5rem;
+        }
+    
+
+
+    .banner-online-text h3{
+        
+        margin-left: 0px;
+        text-align: center;
+        font-size: 2.5rem;
+        
+    
+    }
+    .banner-online-text p{
+        
+        margin-left: 0px;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 30px;
+        
+        
+    
+    }
+
+    .banner-online-photo img{
+        margin-left:0px;
+       
+        
+    }
+
+    .rectangle-photo{
+        position: absolute;
+        left: 40%;
+        text-align: center;
+        transform: translateX(40%);
+       
+       
+    }
     
 }

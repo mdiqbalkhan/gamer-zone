@@ -20,7 +20,7 @@
     min-height: 70px;
     display: flex;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -102,7 +102,7 @@
 .banner-container{
     display: flex;
     justify-content: space-evenly;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 50px auto 0;
     background: #FFF;
    
@@ -156,7 +156,7 @@
     font-family: Work Sans;
     font-size: 1rem;
     font-weight: 500;
-    margin-left: 2.2rem;
+    margin-left: 4.3rem;
 
 
 
@@ -174,7 +174,7 @@
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 .btn:hover{
    
@@ -217,4 +217,449 @@
     text-transform: uppercase;
 
 }
+
+/* banner section end  */
+
+
+/* online section start  */
+
+.online-img{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    max-width: 1150px;
+    margin-left: 35px;
+    margin-bottom: 120px;
+  
+}
+
+.online-text h3{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 20px;
+
+
+}
+
+.online-text p{
+ 
+    font-size: 1rem;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+   
+}
+
+.play-btn{
+   margin-top: 70%;
+    width: 48px;
+  
+}
+
+
+.content {
+    position: absolute;
+    left: 47%;
+    text-align: center;
+    transform: translateX(47%);
+  }
+
+.content p{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 60%;
+
+}
+
+.content img{
+    
+}
+
+
+
+/* banner online section start  */
+
+.banner-online{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+
+.banner-online-photo{
+    width: 50%;
+}
+.banner-online-photo img{
+    margin-left:115px;
+    
+}
+
+.banner-online-text{
+    width: 50%;
+   
+  
+}
+.rectangle{
+    width: 280px;
+    height: 280px;
+    margin-top: -52%;
+    margin-left: 2rem;
+    
+}
+
+.rectangle-photo{
+    position: absolute;
+    left: 18%;
+    text-align: center;
+    transform: translateX(18%);
+   
+}
+
+.anywhere{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+    .banner-online-text h3{
+        color: #0B0223;
+        font-family: Work Sans;
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-left: 12rem;
+        margin-bottom: 20px;
+    
+    }
+    .banner-online-text p{
+        color: #534C64;
+        font-family: Work Sans;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 12rem;
+       
+    
+    }
+
+
+
+
+
+
+/* banner online section end  */
+
+
+/* feature area star  */
+
+.featured-container{
+   height: 30vh;
+}
+
+.featured{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1200px;
+    margin-left: 70px;
+   
+
+  
+}
+
+.rectangle-img{
+    width: 40px;
+    height: 40px;
+   
+}
+
+.featured a{
+    text-decoration: none;
+    
+
+}
+
+
+.action{
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.action{
+    margin-top: 23px;
+   
+}
+
+
+
+.rectangle-img{
+    margin-top: 5%;
+    margin-left: 5%;
+   
+}
+
+
+.action-games{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin-left: 30px; */
+}
+.action-games:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.adventure{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+
+.adven{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+
+.adventure:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.arcade{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin-left: 30px; */
+}
+
+.arcad{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.arcad{
+    margin-top: 23px;
+   
+}
+.arcade:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.educational{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin-left: 30px; */
+}
+
+.adven{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+.educational:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.word{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin-left: 30px; */
+}
+
+.adven{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+.word:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.role{
+    padding: 10px 22px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.adven{
+    position: absolute;
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+.role:hover{
+    padding: 10px 22px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.music{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.adven{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+.music:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.puzzle{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.adven{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+.puzzle:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+.strategy{
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.adven{
+    position: absolute;
+    /* left: 10%; */
+    text-align: center;
+    transform: translateX(10%);
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.adven{
+    margin-top: 23px;
+   
+}
+.strategy:hover{
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+}
+
+
+
+
+
+/* feature area end  */
 
